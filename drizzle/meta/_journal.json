@@ -15,6 +15,13 @@
       "when": 1718291057324,
       "tag": "0001_sparkling_mimic",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1718299476035,
+      "tag": "0002_condemned_dorian_gray",
+      "breakpoints": true
     }
   ]
 }
