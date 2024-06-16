@@ -1,4 +1,4 @@
-import { ClerkLoaded, ClerkLoading, SignUp } from "@clerk/nextjs";
+import { SignUp, ClerkLoaded, ClerkLoading } from "@clerk/nextjs";
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
 
@@ -8,7 +8,7 @@ export default function Page() {
       <div className="h-full lg:flex flex-col items-center justify-center px-4">
         <div className="text-center space-y-4 pt-16">
           <h1 className="font-bold text-3xl text-[#2E2A47]">Welcome Back!</h1>
-          <p className="text-base text-[#7E8CA0]">Log in or Create account</p>
+          <p className="text-base text-[#7E8CA0]">Sign in or Create account</p>
         </div>
         <div className="flex items-center justify-center mt-8">
           <ClerkLoaded>
@@ -20,7 +20,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="h-full bg-blue-600 hidden lg:flex items-center justify-center">
+      <div className="h-full bg-[linear-gradient(to_bottom,#19BA92,#38A169,#68D391)] hidden lg:flex items-center justify-center">
         <Image src="/logo1.svg" alt="Logo" height={100} width={100} />
       </div>
     </div>
