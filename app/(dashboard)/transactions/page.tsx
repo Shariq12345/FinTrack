@@ -9,13 +9,13 @@ import { transactions as transactionsSchema } from "@/db/schema";
 import { columns } from "./columns";
 import { Button } from "@/components/ui/button";
 import { Loader2, Plus } from "lucide-react";
-import { DataTable } from "@/components/data-table";
 import { Skeleton } from "@/components/ui/skeleton";
 import { UploadButton } from "./upload-button";
 import { ImportCard } from "./import-card";
 import { useSelectAccount } from "@/features/accounts/hooks/use-select-account";
 import { toast } from "sonner";
 import { useBulkCreateTransactions } from "@/features/transactions/api/use-bulk-create-transactions";
+import { DataTable } from "@/components/dashbord-cards/data-table";
 
 enum VARIANTS {
   LIST = "LIST",

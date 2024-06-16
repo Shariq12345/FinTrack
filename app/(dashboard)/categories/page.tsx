@@ -8,8 +8,8 @@ import { columns } from "./columns";
 import { Button } from "@/components/ui/button";
 import { Loader2, Plus } from "lucide-react";
 import React, { useState } from "react";
-import { DataTable } from "@/components/data-table";
 import { Skeleton } from "@/components/ui/skeleton";
+import { DataTable } from "@/components/dashbord-cards/data-table";
 
 const CategoriesPage = () => {
   const newCategory = useNewCategory();
