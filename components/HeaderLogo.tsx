@@ -6,7 +6,7 @@ const HeaderLogo = () => {
   return (
     <Link href="/">
       <div className="items-center hidden lg:flex">
-        <Image src="logo.svg" alt="Logo" width={28} height={28} />
+        <Image src="logo1.svg" alt="Logo" width={30} height={30} />
         <p className="font-semibold  text-white text-2xl ml-2.5">
           Fin<span className="text-green-400">Track</span>
         </p>
